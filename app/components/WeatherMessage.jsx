@@ -19,7 +19,7 @@ var WeatherMessage = ({location, temp}) => {
   //   var {location, temp}= props;
     return(
     <div>
-      <h3>It is over {temp}!!! in {location}.</h3>
+      <h3 className="text-center">It is over {temp}!!! in {location}.</h3>
     </div>
   );
 }
